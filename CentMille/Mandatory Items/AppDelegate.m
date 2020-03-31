@@ -1,7 +1,6 @@
 //
 //  AppDelegate.m
 //  Created 3/30/20
-//  Using Swift 5.0
 // 
 //  Copyright © 2020 Yu. All rights reserved.
 //
@@ -9,15 +8,23 @@
 //
 
 #import "AppDelegate.h"
+#import "PlanViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () {
+    UIViewController *_rootVC;
+}
 
 @end
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    _window = [[UIWindow alloc] initWithFrame: UIScreen.mainScreen.bounds];
+    _rootVC = [[PlanViewController alloc] initWithNibName:@"PlanViewController"
+                                                 bundle:nil];
+    _window.rootViewController = _rootVC;
+    [_window makeKeyAndVisible];
     return YES;
 }
 

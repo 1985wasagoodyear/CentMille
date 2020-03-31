@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Plan+CoreDataClass.m
 //  Created 3/30/20
 //  Using Swift 5.0
 // 
@@ -7,11 +7,10 @@
 //
 //  https://github.com/1985wasagoodyear
 //
+//
 
-#import <UIKit/UIKit.h>
+#import "Plan+CoreDataClass.h"
 
-@interface ViewController : UIViewController
-
+@implementation Plan
 
 @end
-

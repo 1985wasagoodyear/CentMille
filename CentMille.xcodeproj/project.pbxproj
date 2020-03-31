@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F52BFC42432B7500022E9D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52BFC32432B7500022E9D3 /* AppDelegate.m */; };
-		3F52BFCA2432B7500022E9D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52BFC92432B7500022E9D3 /* ViewController.m */; };
+		3F52BFCA2432B7500022E9D3 /* PlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52BFC92432B7500022E9D3 /* PlanViewController.m */; };
 		3F52BFD02432B7500022E9D3 /* CentMille.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F52BFCE2432B7500022E9D3 /* CentMille.xcdatamodeld */; };
 		3F52BFD22432B7510022E9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F52BFD12432B7510022E9D3 /* Assets.xcassets */; };
 		3F52BFD82432B7510022E9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52BFD72432B7510022E9D3 /* main.m */; };
@@ -17,7 +17,17 @@
 		3F52BFFD2432BB330022E9D3 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52BFFC2432BB330022E9D3 /* CoreDataManager.m */; };
 		3F52C0012432BC700022E9D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F52C0002432BC700022E9D3 /* Default-568h@2x.png */; };
 		3F52C0022432BCAA0022E9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F52BFD32432B7510022E9D3 /* LaunchScreen.storyboard */; };
-		3F52C0042432BD010022E9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F52C0032432BD010022E9D3 /* Main.storyboard */; };
+		3F52C0122432C4FE0022E9D3 /* Location+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C0082432C4FE0022E9D3 /* Location+CoreDataClass.m */; };
+		3F52C0132432C4FE0022E9D3 /* Location+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C0092432C4FE0022E9D3 /* Location+CoreDataProperties.m */; };
+		3F52C0142432C4FE0022E9D3 /* Entry+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C00C2432C4FE0022E9D3 /* Entry+CoreDataClass.m */; };
+		3F52C0152432C4FE0022E9D3 /* Entry+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C00D2432C4FE0022E9D3 /* Entry+CoreDataProperties.m */; };
+		3F52C0162432C4FE0022E9D3 /* Plan+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C0102432C4FE0022E9D3 /* Plan+CoreDataClass.m */; };
+		3F52C0172432C4FE0022E9D3 /* Plan+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C0112432C4FE0022E9D3 /* Plan+CoreDataProperties.m */; };
+		3F52C0192432C5220022E9D3 /* PlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F52C0182432C5220022E9D3 /* PlanViewController.xib */; };
+		3F52C01D2432C7810022E9D3 /* PlanViewController+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C01C2432C7810022E9D3 /* PlanViewController+TableView.m */; };
+		3F52C0212432CA370022E9D3 /* HoverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C0202432CA370022E9D3 /* HoverButton.m */; };
+		3F52C0252432CD380022E9D3 /* ChangePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C0232432CD380022E9D3 /* ChangePlanViewController.m */; };
+		3F52C0262432CD380022E9D3 /* ChangePlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F52C0242432CD380022E9D3 /* ChangePlanViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +51,8 @@
 		3F52BFBF2432B7500022E9D3 /* CentMille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CentMille.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F52BFC22432B7500022E9D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F52BFC32432B7500022E9D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F52BFC82432B7500022E9D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F52BFC92432B7500022E9D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F52BFC82432B7500022E9D3 /* PlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanViewController.h; sourceTree = "<group>"; };
+		3F52BFC92432B7500022E9D3 /* PlanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanViewController.m; sourceTree = "<group>"; };
 		3F52BFCF2432B7500022E9D3 /* CentMille.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CentMille.xcdatamodel; sourceTree = "<group>"; };
 		3F52BFD12432B7510022E9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F52BFD42432B7510022E9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,7 +67,27 @@
 		3F52BFFB2432BB330022E9D3 /* CoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
 		3F52BFFC2432BB330022E9D3 /* CoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 		3F52C0002432BC700022E9D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3F52C0032432BD010022E9D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3F52C0062432C4FE0022E9D3 /* Location+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Location+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3F52C0072432C4FE0022E9D3 /* Location+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Location+CoreDataClass.h"; sourceTree = "<group>"; };
+		3F52C0082432C4FE0022E9D3 /* Location+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Location+CoreDataClass.m"; sourceTree = "<group>"; };
+		3F52C0092432C4FE0022E9D3 /* Location+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Location+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3F52C00A2432C4FE0022E9D3 /* Entry+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Entry+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3F52C00B2432C4FE0022E9D3 /* Entry+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Entry+CoreDataClass.h"; sourceTree = "<group>"; };
+		3F52C00C2432C4FE0022E9D3 /* Entry+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Entry+CoreDataClass.m"; sourceTree = "<group>"; };
+		3F52C00D2432C4FE0022E9D3 /* Entry+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Entry+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3F52C00E2432C4FE0022E9D3 /* Plan+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plan+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3F52C00F2432C4FE0022E9D3 /* Plan+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plan+CoreDataClass.h"; sourceTree = "<group>"; };
+		3F52C0102432C4FE0022E9D3 /* Plan+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Plan+CoreDataClass.m"; sourceTree = "<group>"; };
+		3F52C0112432C4FE0022E9D3 /* Plan+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Plan+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3F52C0182432C5220022E9D3 /* PlanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanViewController.xib; sourceTree = "<group>"; };
+		3F52C01A2432C6360022E9D3 /* CoreDataUmbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataUmbrella.h; sourceTree = "<group>"; };
+		3F52C01B2432C7810022E9D3 /* PlanViewController+TableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlanViewController+TableView.h"; sourceTree = "<group>"; };
+		3F52C01C2432C7810022E9D3 /* PlanViewController+TableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PlanViewController+TableView.m"; sourceTree = "<group>"; };
+		3F52C01F2432CA370022E9D3 /* HoverButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoverButton.h; sourceTree = "<group>"; };
+		3F52C0202432CA370022E9D3 /* HoverButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoverButton.m; sourceTree = "<group>"; };
+		3F52C0222432CD380022E9D3 /* ChangePlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePlanViewController.h; sourceTree = "<group>"; };
+		3F52C0232432CD380022E9D3 /* ChangePlanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePlanViewController.m; sourceTree = "<group>"; };
+		3F52C0242432CD380022E9D3 /* ChangePlanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePlanViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				3F52BFFA2432BB230022E9D3 /* Persistence */,
-				3F52BFC82432B7500022E9D3 /* ViewController.h */,
-				3F52BFC92432B7500022E9D3 /* ViewController.m */,
+				3F52C01E2432CA100022E9D3 /* CustomViews */,
+				3F52C0052432C21A0022E9D3 /* Main Flow */,
 				3F52BFD12432B7510022E9D3 /* Assets.xcassets */,
-				3F52C0032432BD010022E9D3 /* Main.storyboard */,
 				3F52BFFF2432BC560022E9D3 /* Mandatory Items */,
 			);
 			path = CentMille;
@@ -144,6 +173,7 @@
 				3F52BFFE2432BC160022E9D3 /* NSManagedObjects */,
 				3F52BFFB2432BB330022E9D3 /* CoreDataManager.h */,
 				3F52BFFC2432BB330022E9D3 /* CoreDataManager.m */,
+				3F52C01A2432C6360022E9D3 /* CoreDataUmbrella.h */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -151,6 +181,18 @@
 		3F52BFFE2432BC160022E9D3 /* NSManagedObjects */ = {
 			isa = PBXGroup;
 			children = (
+				3F52C0062432C4FE0022E9D3 /* Location+CoreDataProperties.h */,
+				3F52C0092432C4FE0022E9D3 /* Location+CoreDataProperties.m */,
+				3F52C0072432C4FE0022E9D3 /* Location+CoreDataClass.h */,
+				3F52C0082432C4FE0022E9D3 /* Location+CoreDataClass.m */,
+				3F52C00A2432C4FE0022E9D3 /* Entry+CoreDataProperties.h */,
+				3F52C00D2432C4FE0022E9D3 /* Entry+CoreDataProperties.m */,
+				3F52C00B2432C4FE0022E9D3 /* Entry+CoreDataClass.h */,
+				3F52C00C2432C4FE0022E9D3 /* Entry+CoreDataClass.m */,
+				3F52C00E2432C4FE0022E9D3 /* Plan+CoreDataProperties.h */,
+				3F52C0112432C4FE0022E9D3 /* Plan+CoreDataProperties.m */,
+				3F52C00F2432C4FE0022E9D3 /* Plan+CoreDataClass.h */,
+				3F52C0102432C4FE0022E9D3 /* Plan+CoreDataClass.m */,
 			);
 			path = NSManagedObjects;
 			sourceTree = "<group>";
@@ -165,6 +207,30 @@
 				3F52BFD32432B7510022E9D3 /* LaunchScreen.storyboard */,
 			);
 			path = "Mandatory Items";
+			sourceTree = "<group>";
+		};
+		3F52C0052432C21A0022E9D3 /* Main Flow */ = {
+			isa = PBXGroup;
+			children = (
+				3F52BFC82432B7500022E9D3 /* PlanViewController.h */,
+				3F52BFC92432B7500022E9D3 /* PlanViewController.m */,
+				3F52C01B2432C7810022E9D3 /* PlanViewController+TableView.h */,
+				3F52C01C2432C7810022E9D3 /* PlanViewController+TableView.m */,
+				3F52C0182432C5220022E9D3 /* PlanViewController.xib */,
+				3F52C0222432CD380022E9D3 /* ChangePlanViewController.h */,
+				3F52C0232432CD380022E9D3 /* ChangePlanViewController.m */,
+				3F52C0242432CD380022E9D3 /* ChangePlanViewController.xib */,
+			);
+			path = "Main Flow";
+			sourceTree = "<group>";
+		};
+		3F52C01E2432CA100022E9D3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3F52C01F2432CA370022E9D3 /* HoverButton.h */,
+				3F52C0202432CA370022E9D3 /* HoverButton.m */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,10 +336,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F52C0192432C5220022E9D3 /* PlanViewController.xib in Resources */,
 				3F52C0022432BCAA0022E9D3 /* LaunchScreen.storyboard in Resources */,
+				3F52C0262432CD380022E9D3 /* ChangePlanViewController.xib in Resources */,
 				3F52C0012432BC700022E9D3 /* Default-568h@2x.png in Resources */,
 				3F52BFD22432B7510022E9D3 /* Assets.xcassets in Resources */,
-				3F52C0042432BD010022E9D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,9 +366,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F52BFD82432B7510022E9D3 /* main.m in Sources */,
-				3F52BFCA2432B7500022E9D3 /* ViewController.m in Sources */,
+				3F52C01D2432C7810022E9D3 /* PlanViewController+TableView.m in Sources */,
+				3F52BFCA2432B7500022E9D3 /* PlanViewController.m in Sources */,
+				3F52C0252432CD380022E9D3 /* ChangePlanViewController.m in Sources */,
 				3F52BFFD2432BB330022E9D3 /* CoreDataManager.m in Sources */,
+				3F52C0132432C4FE0022E9D3 /* Location+CoreDataProperties.m in Sources */,
 				3F52BFC42432B7500022E9D3 /* AppDelegate.m in Sources */,
+				3F52C0152432C4FE0022E9D3 /* Entry+CoreDataProperties.m in Sources */,
+				3F52C0172432C4FE0022E9D3 /* Plan+CoreDataProperties.m in Sources */,
+				3F52C0162432C4FE0022E9D3 /* Plan+CoreDataClass.m in Sources */,
+				3F52C0212432CA370022E9D3 /* HoverButton.m in Sources */,
+				3F52C0122432C4FE0022E9D3 /* Location+CoreDataClass.m in Sources */,
+				3F52C0142432C4FE0022E9D3 /* Entry+CoreDataClass.m in Sources */,
 				3F52BFD02432B7500022E9D3 /* CentMille.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

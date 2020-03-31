@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ChangePlanViewController.h
 //  Created 3/30/20
 // 
 //  Copyright © 2020 Yu. All rights reserved.
@@ -9,9 +9,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (nonatomic, strong) UIWindow *window;
+@interface ChangePlanViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
