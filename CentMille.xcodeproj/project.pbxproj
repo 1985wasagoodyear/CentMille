@@ -28,6 +28,8 @@
 		3F52C0212432CA370022E9D3 /* HoverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C0202432CA370022E9D3 /* HoverButton.m */; };
 		3F52C0252432CD380022E9D3 /* ChangePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52C0232432CD380022E9D3 /* ChangePlanViewController.m */; };
 		3F52C0262432CD380022E9D3 /* ChangePlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F52C0242432CD380022E9D3 /* ChangePlanViewController.xib */; };
+		3F74394024336E2A00179D39 /* StickerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74393F24336E2A00179D39 /* StickerTextField.m */; };
+		3F74394224336E3600179D39 /* StickerTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F74394124336E3600179D39 /* StickerTextField.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,9 @@
 		3F52C0222432CD380022E9D3 /* ChangePlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePlanViewController.h; sourceTree = "<group>"; };
 		3F52C0232432CD380022E9D3 /* ChangePlanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePlanViewController.m; sourceTree = "<group>"; };
 		3F52C0242432CD380022E9D3 /* ChangePlanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePlanViewController.xib; sourceTree = "<group>"; };
+		3F74393E24336E2A00179D39 /* StickerTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickerTextField.h; sourceTree = "<group>"; };
+		3F74393F24336E2A00179D39 /* StickerTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickerTextField.m; sourceTree = "<group>"; };
+		3F74394124336E3600179D39 /* StickerTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StickerTextField.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +234,9 @@
 			children = (
 				3F52C01F2432CA370022E9D3 /* HoverButton.h */,
 				3F52C0202432CA370022E9D3 /* HoverButton.m */,
+				3F74393E24336E2A00179D39 /* StickerTextField.h */,
+				3F74393F24336E2A00179D39 /* StickerTextField.m */,
+				3F74394124336E3600179D39 /* StickerTextField.xib */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -341,6 +349,7 @@
 				3F52C0262432CD380022E9D3 /* ChangePlanViewController.xib in Resources */,
 				3F52C0012432BC700022E9D3 /* Default-568h@2x.png in Resources */,
 				3F52BFD22432B7510022E9D3 /* Assets.xcassets in Resources */,
+				3F74394224336E3600179D39 /* StickerTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +383,7 @@
 				3F52BFC42432B7500022E9D3 /* AppDelegate.m in Sources */,
 				3F52C0152432C4FE0022E9D3 /* Entry+CoreDataProperties.m in Sources */,
 				3F52C0172432C4FE0022E9D3 /* Plan+CoreDataProperties.m in Sources */,
+				3F74394024336E2A00179D39 /* StickerTextField.m in Sources */,
 				3F52C0162432C4FE0022E9D3 /* Plan+CoreDataClass.m in Sources */,
 				3F52C0212432CA370022E9D3 /* HoverButton.m in Sources */,
 				3F52C0122432C4FE0022E9D3 /* Location+CoreDataClass.m in Sources */,

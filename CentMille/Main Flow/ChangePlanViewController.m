@@ -8,6 +8,7 @@
 //
 
 #import "ChangePlanViewController.h"
+#import "StickerTextField.h"
 
 @interface ChangePlanViewController ()
 
